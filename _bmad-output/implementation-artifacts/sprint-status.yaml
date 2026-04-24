@@ -1,0 +1,99 @@
+# generated: 2026-04-24
+# last_updated: 2026-04-24
+# project: test
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-04-24
+last_updated: 2026-04-24
+project: test
+project_key: NOKEY
+tracking_system: file-system
+story_location: implementation-artifacts
+
+development_status:
+  # Epic 1: 用户账户管理
+  epic-1: in-progress
+  1-1-user-registration: review
+  1-2-user-login: backlog
+  1-3-user-logout: backlog
+  1-4-identity-verification: backlog
+  epic-1-retrospective: optional
+
+  # Epic 2: 商品浏览与发现
+  epic-2: backlog
+  2-1-browse-by-category: backlog
+  2-2-search-products: backlog
+  2-3-filter-products: backlog
+  2-4-view-product-detail: backlog
+  epic-2-retrospective: optional
+
+  # Epic 3: 购物车管理
+  epic-3: backlog
+  3-1-add-to-cart: backlog
+  3-2-modify-quantity: backlog
+  3-3-remove-item: backlog
+  3-4-view-cart-list: backlog
+  3-5-sync-cart: backlog
+  epic-3-retrospective: optional
+
+  # Epic 4: 交易与支付
+  epic-4: backlog
+  4-1-add-address: backlog
+  4-2-edit-address: backlog
+  4-3-delete-address: backlog
+  4-4-select-address: backlog
+  4-5-confirm-order: backlog
+  4-6-payment: backlog
+  epic-4-retrospective: optional
+
+  # Epic 5: 订单履约
+  epic-5: backlog
+  5-1-view-order-list: backlog
+  5-2-view-order-detail: backlog
+  5-3-track-logistics: backlog
+  5-4-order-notification: backlog
+  epic-5-retrospective: optional
+
+  # Epic 6: 个人中心
+  epic-6: backlog
+  6-1-view-profile: backlog
+  6-2-update-avatar: backlog
+  6-3-update-profile-info: backlog
+  epic-6-retrospective: optional
+
+  # Epic 7: 实时通知（Post-MVP）
+  epic-7: backlog
+  7-1-websocket-notification: backlog
+  7-2-system-message: backlog
+  epic-7-retrospective: optional
